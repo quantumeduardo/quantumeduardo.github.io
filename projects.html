@@ -40,7 +40,7 @@
   <header class="mb-auto">
     <div>
       <h3 class="float-md-start mb-0">Coding Projects</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
+      <nav class="nav nav-masthead justify-content-center float-md-end" id ="navBar">
         <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
       
       </nav>
@@ -52,7 +52,7 @@
       
       function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("navbar").style.top = "0";
+          document.getElementById("navBar").style.top = "0";
         } else {
           document.getElementById("navbar").style.top = "-50px";
         }
