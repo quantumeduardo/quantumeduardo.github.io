@@ -15,7 +15,7 @@ h3{
     width: 200px;
     height: 200px;
     border-spacing: 1in;
-    border-color: red;
+    border-color: rgb(255, 255, 255);
     border-style: double;
 }
 .bd-placeholder-img {
